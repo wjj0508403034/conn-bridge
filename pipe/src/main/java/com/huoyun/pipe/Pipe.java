@@ -4,5 +4,5 @@ public interface Pipe {
 
 	Pipe pipe(Pipe pipe);
 
-	Object run(Object in);
+	Object run(PipeContext context, Object in);
 }

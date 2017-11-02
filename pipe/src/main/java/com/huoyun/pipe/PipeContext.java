@@ -1,5 +1,9 @@
 package com.huoyun.pipe;
 
-public class PipeContext {
+public interface PipeContext {
+
+	Object getResult(Pipe pipe);
+
+	void setResult(Pipe pipe, Object result);
 
 }
